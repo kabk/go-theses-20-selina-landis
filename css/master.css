@@ -1,0 +1,388 @@
+
+@font-face {
+  font-family: "myFont";
+  src: url('VAGRounded-Thin.otf') format('opentype');
+  color: black;
+}
+
+@font-face {
+  font-family: "myFont2";
+  src: url('LTe50378.ttf') format('TrueType');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: "myFont4";
+  src: url('LTe50379.ttf') format('TrueType');
+  font-weight: italic;
+
+}
+
+@font-face {
+  font-family: "myFont3";
+  src: url('ManuStd-Informal.otf') format('opentype');
+
+}
+
+i {
+  font-family: "myFont4";
+  /* font-size: 18px; */
+}
+
+.vag{
+  font-family: "myFont";
+  font-size: 20px;
+}
+.manu{
+  font-family: "myFont3";
+  font-size: 25px;
+}
+
+.tab{
+  padding-left: 20px;
+  font-family: "myFont3";
+
+}
+.abstract{
+  font-family: "myFont2";
+  font-size: 20px;
+  line-height: normal;
+
+}
+
+.title{
+  font-family: "myFont"
+}
+
+.thanks {
+  color: #AA00FF;
+
+}
+
+
+
+#headingAbstract{
+  /* height: 50vh; */
+/* border: solid red 1px; */
+
+}
+
+#headingIntro{
+  /* background-color: rgb(1, 195, 246); */
+}
+
+#headingOne{
+
+
+}
+
+#headingTwo{
+  /* background-color: rgb(255, 101, 253); */
+}
+
+#headingThree{
+  /* background-color: rgb(255, 220, 34); */
+}
+
+#headingFour{
+  /* background-color: rgb(37, 78, 255); */
+}
+
+h2{
+  color: black;
+  font-weight: 200;
+  font-family: 'myFont3';
+
+}
+
+h1{
+  color: black;
+  font-weight: 200;
+  font-family: 'myFont';
+}
+
+button{
+  /* color: black; */
+  background-color: transparent;
+  border: none;
+  /* font-family: 'myFont3'; */
+  /* font-weight: 200; */
+  /* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%) */
+
+
+}
+
+.buttnut{
+  color: #AA00FF;
+  background-color: transparent;
+  outline:none;
+  font-family: 'myFont3';
+  font-size: 20px;
+}
+
+
+
+*:focus {
+    outline: 0 !important;
+}
+
+
+
+/* buttons */
+.chapbutt1{
+  background-color: inherit;
+  width: inherit;
+  /* font-size: 100px; */
+  line-height: 90%;
+
+
+}
+
+.chapbutt2{
+  background-color: inherit;
+  width: inherit;
+}
+
+.chapbutt3{
+  background-color: inherit;
+  width: inherit;
+}
+
+.chapbutt4{
+  background-color: inherit;
+  width: inherit;
+}
+
+
+
+/* Chapter boxes */
+.AbstractStyle{
+  /* background-color: pink; */
+  width: 50%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	box-shadow: 15px 15px 10px rgba(0,0.2,0.2,0);
+	animation: morphingtitle 20s infinite;
+	overflow: hidden;
+  &:hover;
+	animation-play-state paused;
+
+}
+
+@keyframes morphingtitle {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 15px 15px 10px rgba(0, 0.2 0, 0.2);
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+	}
+
+
+.IntroStyle{
+  width: 60%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+	animation: morphingintro 40s infinite;
+	overflow: hidden;
+  &:hover;
+	animation-play-state paused;
+}
+
+@keyframes morphingintro {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+	}
+
+.chap1style{
+  /* background-color: red; */
+  width: 200px;
+  border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+	animation: morphing1 10s infinite;
+	overflow: hidden;
+  &:hover;
+	animation-play-state paused;
+
+}
+
+@keyframes morphing1 {
+  0% {
+    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+	}
+
+
+.chap2style{
+  width: 300px;
+  border-radius: 30% 30% 60% 60% / 30% 30% 60% 60%;
+  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  animation: morphing2 10s infinite;
+  overflow: hidden;
+  &:hover;
+  animation-play-state paused;
+}
+
+@keyframes morphing2 {
+  0% {
+    border-radius: 30% 30% 60% 60% / 30% 30% 60% 60%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+	}
+
+
+.chap3style{
+  width: 280px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+  animation: morphing3 15s infinite;
+  overflow: hidden;
+  &:hover;
+  animation-play-state paused;
+
+}
+@keyframes morphing3 {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+	}
+
+
+
+
+.chap4style{
+  width: 300px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  animation: morphing4 15s infinite;
+  overflow: hidden;
+  &:hover;
+  animation-play-state paused;
+
+
+}
+@keyframes morphing4 {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+  }
+
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+	}
+
+
+/* #collapse_Abstract {
+  font-family: 'myFont'
+} */
+
+img {
+  width: 100%;
+  height: auto;
+}
+a {font-family: 'myfont2';
+color: black;
+
+}
+#selina_body{
+  background-color: transparent;
+}
+
+#Body_1 {
+  font-family: 'myFont';
+  font-size: 18px;
+  line-height: 1.4;;
+}
+
+#Footnotes_1 {
+  font-family: 'myFont3';
+  font-size:  20px;
+  line-height: 1.2;
+
+
+}
+
+#spaghetti {
+height: auto;
+/*  */
+position: absolute;
+z-index: -10
+
+
+}
