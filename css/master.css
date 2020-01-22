@@ -41,6 +41,7 @@ i {
 .tab{
   padding-left: 20px;
   font-family: "myFont3";
+  color:rgb(77,124,192);
 
 }
 .abstract{
@@ -55,7 +56,7 @@ i {
 }
 
 .thanks {
-  color: #AA00FF;
+  color: rgb(178,135,90);
 
 }
 
@@ -64,6 +65,13 @@ i {
 #headingAbstract{
   /* height: 50vh; */
 /* border: solid red 1px; */
+
+}
+
+.Abstractsytle mx-auto {
+  padding-top:40px;
+  padding-left:200px;
+
 
 }
 
@@ -109,11 +117,10 @@ button{
   /* font-weight: 200; */
   /* background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%) */
 
-
 }
 
 .buttnut{
-  color: #AA00FF;
+  color: rgb(178,135,90);
   background-color: transparent;
   outline:none;
   font-family: 'myFont3';
@@ -134,8 +141,6 @@ button{
   width: inherit;
   /* font-size: 100px; */
   line-height: 90%;
-
-
 }
 
 .chapbutt2{
@@ -157,10 +162,10 @@ button{
 
 /* Chapter boxes */
 .AbstractStyle{
-  /* background-color: pink; */
+  /* background-color: rgba(183,168,255,0.2); */
   width: 50%;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-	box-shadow: 15px 15px 10px rgba(0,0.2,0.2,0);
+	box-shadow: 15px 15px 10px rgba(77,124,192,0.2);
 	animation: morphingtitle 20s infinite;
 	overflow: hidden;
   &:hover;
@@ -171,7 +176,7 @@ button{
 @keyframes morphingtitle {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    box-shadow: 15px 15px 10px rgba(0, 0.2 0, 0.2);
+    box-shadow: 15px 15px 10px rgba(77,124,192,0.2);
   }
 
   25% {
@@ -180,7 +185,7 @@ button{
 
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   75% {
@@ -189,10 +194,11 @@ button{
 	}
 
 
+
 .IntroStyle{
   width: 60%;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+	box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
 	animation: morphingintro 40s infinite;
 	overflow: hidden;
   &:hover;
@@ -202,7 +208,7 @@ button{
 @keyframes morphingintro {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
   }
 
   25% {
@@ -211,7 +217,7 @@ button{
 
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   75% {
@@ -223,7 +229,7 @@ button{
   /* background-color: red; */
   width: 200px;
   border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
-	box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+	box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
 	animation: morphing1 10s infinite;
 	overflow: hidden;
   &:hover;
@@ -234,7 +240,7 @@ button{
 @keyframes morphing1 {
   0% {
     border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
-    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
   }
 
   25% {
@@ -243,7 +249,7 @@ button{
 
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   75% {
@@ -255,7 +261,7 @@ button{
 .chap2style{
   width: 300px;
   border-radius: 30% 30% 60% 60% / 30% 30% 60% 60%;
-  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
   animation: morphing2 10s infinite;
   overflow: hidden;
   &:hover;
@@ -265,7 +271,7 @@ button{
 @keyframes morphing2 {
   0% {
     border-radius: 30% 30% 60% 60% / 30% 30% 60% 60%;
-    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
   }
 
   25% {
@@ -274,7 +280,7 @@ button{
 
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   75% {
@@ -286,7 +292,7 @@ button{
 .chap3style{
   width: 280px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  box-shadow: 2px 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 2px 5px 10px rgba(77,124,192,0.2);
   animation: morphing3 15s infinite;
   overflow: hidden;
   &:hover;
@@ -296,7 +302,7 @@ button{
 @keyframes morphing3 {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 5px 10px rgba(77,124,192,0.2);
   }
 
   25% {
@@ -305,7 +311,7 @@ button{
 
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   75% {
@@ -319,7 +325,7 @@ button{
 .chap4style{
   width: 300px;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-  box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+  box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
   animation: morphing4 15s infinite;
   overflow: hidden;
   &:hover;
@@ -330,7 +336,7 @@ button{
 @keyframes morphing4 {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
   }
 
   25% {
@@ -339,7 +345,7 @@ button{
 
   50% {
     border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
-    box-shadow: -10px -5px 50px rgba(0, 0, 0, 0.2);
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   75% {
@@ -356,12 +362,13 @@ img {
   width: 100%;
   height: auto;
 }
+
 a {font-family: 'myfont2';
 color: black;
 
 }
 #selina_body{
-  background-color: transparent;
+  background-color: rgb(251,251,251);
 }
 
 #Body_1 {
